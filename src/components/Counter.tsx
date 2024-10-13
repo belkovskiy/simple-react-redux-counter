@@ -11,7 +11,7 @@ const Counter: React.FC = ()=> {
 
   return(
     <div>
-      <h1>Counter: {count}</h1>
+      <h2>Counter: {count}</h2>
       <button onClick={() => dispatch(increment())}>Increment</button>
       <button onClick={() => dispatch(decrement())}>Decrement</button>
     </div>
